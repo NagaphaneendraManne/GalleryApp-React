@@ -91,7 +91,7 @@ class Gallery extends Component {
         <div className="image-container">
           <img className="image" src={imageUrl} alt={imageAltText} />
           <h1 className="heading">Nature Photography</h1>
-          <p className="description">Nature Photography by Rahul</p>
+          <p className="description">Nature Photography by Phani</p>
           <ul className="thumbnails-list">
             {imagesList.map(eachImage => (
               <ThumbnailItem
